@@ -1,6 +1,6 @@
 //: Playground - noun: a place where people can play
 
-import Foundation
+import UIKit
 
 func sum(s1:String, s2:String) -> String {
     let s1c = [Character](s1.characters)
@@ -58,6 +58,11 @@ func sum(s1:String, s2:String) -> String {
     return String(sResult)
 }
 
-print(sum("11", s2:"991"))
+XCTAssertEqual(sum("1", s2:"1"), "2")
+XCTAssertEqual(sum("7", s2:"8"), "15")
+XCTAssertEqual(sum("70", s2:"8"), "78")
+XCTAssertEqual(sum("700", s2:"8"), "708")
+XCTAssertEqual(sum("10000000000000000000000000000000000000", s2:"15"), "10000000000000000000000000000000000015")
+
 
 
