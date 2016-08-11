@@ -8,8 +8,6 @@ var r:[Int] = []
 var fr:[[Int]] = []
 
 func permutate(a:[Int]) -> [[Int]] {
-
-    
     if (a.count == 0) {
         fr.append(r)
     } else {
@@ -28,8 +26,3 @@ func permutate(a:[Int]) -> [[Int]] {
 }
 
 print(permutate(a))
-
-
-
-
-//: [Next](@next)

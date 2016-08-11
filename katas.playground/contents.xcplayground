@@ -3,7 +3,7 @@
     <pages>
         <page name='string-sum'/>
         <page name='array-recursion-sum'/>
-        <page name='reqursion-permutation'/>
+        <page name='recursion-permutation'/>
         <page name='vas'/>
     </pages>
 </playground>
