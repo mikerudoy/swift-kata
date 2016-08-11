@@ -2,6 +2,8 @@
 <playground version='6.0' target-platform='ios'>
     <pages>
         <page name='string-sum'/>
-        <page name='recursion'/>
+        <page name='array-recursion-sum'/>
+        <page name='reqursion-permutation'/>
+        <page name='vas'/>
     </pages>
 </playground>
